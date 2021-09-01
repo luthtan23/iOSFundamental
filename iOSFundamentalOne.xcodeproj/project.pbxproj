@@ -20,6 +20,11 @@
 		8D38D7B126D3935A00F996B2 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D7B026D3935A00F996B2 /* CatalogueViewController.swift */; };
 		8D38D7B926D3AB9F00F996B2 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D7B826D3AB9F00F996B2 /* NavigationViewController.swift */; };
 		8D38D7BE26D3AC4E00F996B2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D7BD26D3AC4E00F996B2 /* AboutViewController.swift */; };
+		8D5DAD2926DC7A420011F712 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD2826DC7A420011F712 /* GamesModel.swift */; };
+		8D5DAD2E26DC7AD30011F712 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD2D26DC7AD30011F712 /* NetworkModel.swift */; };
+		8D5DAD3326DC7B220011F712 /* PlatformModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD3226DC7B220011F712 /* PlatformModel.swift */; };
+		8D5DAD3826DC7B940011F712 /* PlatformDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD3726DC7B940011F712 /* PlatformDetailModel.swift */; };
+		8D5DAD4E26DC7E500011F712 /* Network+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD4D26DC7E500011F712 /* Network+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		8D38D7B026D3935A00F996B2 /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 		8D38D7B826D3AB9F00F996B2 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		8D38D7BD26D3AC4E00F996B2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8D5DAD2826DC7A420011F712 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
+		8D5DAD2D26DC7AD30011F712 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		8D5DAD3226DC7B220011F712 /* PlatformModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformModel.swift; sourceTree = "<group>"; };
+		8D5DAD3726DC7B940011F712 /* PlatformDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformDetailModel.swift; sourceTree = "<group>"; };
+		8D5DAD4D26DC7E500011F712 /* Network+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +180,11 @@
 			isa = PBXGroup;
 			children = (
 				8D38D77626D3597F00F996B2 /* iOSFundamentalOne.xcdatamodeld */,
+				8D5DAD2826DC7A420011F712 /* GamesModel.swift */,
+				8D5DAD2D26DC7AD30011F712 /* NetworkModel.swift */,
+				8D5DAD3226DC7B220011F712 /* PlatformModel.swift */,
+				8D5DAD3726DC7B940011F712 /* PlatformDetailModel.swift */,
+				8D5DAD4D26DC7E500011F712 /* Network+Helper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -315,9 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D38D7B926D3AB9F00F996B2 /* NavigationViewController.swift in Sources */,
+				8D5DAD2926DC7A420011F712 /* GamesModel.swift in Sources */,
+				8D5DAD3826DC7B940011F712 /* PlatformDetailModel.swift in Sources */,
 				8D38D7B126D3935A00F996B2 /* CatalogueViewController.swift in Sources */,
+				8D5DAD2E26DC7AD30011F712 /* NetworkModel.swift in Sources */,
 				8D38D7AB26D36D1900F996B2 /* CatalogueTableViewCell.swift in Sources */,
 				8D38D7BE26D3AC4E00F996B2 /* AboutViewController.swift in Sources */,
+				8D5DAD3326DC7B220011F712 /* PlatformModel.swift in Sources */,
+				8D5DAD4E26DC7E500011F712 /* Network+Helper.swift in Sources */,
 				8D38D76E26D3597F00F996B2 /* AppDelegate.swift in Sources */,
 				8D38D77826D3597F00F996B2 /* iOSFundamentalOne.xcdatamodeld in Sources */,
 				8D38D77026D3597F00F996B2 /* SceneDelegate.swift in Sources */,
