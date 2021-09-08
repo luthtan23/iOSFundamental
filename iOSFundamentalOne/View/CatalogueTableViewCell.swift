@@ -15,6 +15,15 @@ class CatalogueTableViewCell: UITableViewCell {
     @IBOutlet var dateText: UILabel!
     @IBOutlet var ratingInt: UILabel!
     @IBOutlet var topRatingInt: UILabel!
+	
+	
+	func setUICell(gameList: GamesListResponse, loadImage: LoadImage) {
+		titleText.text = gameList.name
+		dateText.text = gameList.released
+		ratingInt.text = String(gameList.rating!)
+		topRatingInt.text = "/" + String(gameList.ratingTop!)
+		imageBackground.image = loadImage.image
+	}
     
     
     override func awakeFromNib() {
@@ -33,5 +42,6 @@ class CatalogueTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+	
     
 }
