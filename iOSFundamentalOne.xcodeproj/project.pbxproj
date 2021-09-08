@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85CC492A26E869130017D9F3 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC492926E869130017D9F3 /* NetworkResponse.swift */; };
+		85CC493526E88C4B0017D9F3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CC493426E88C4B0017D9F3 /* ImageDownloader.swift */; };
+		85D8E78526DF557B00828C61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D8E78426DF557B00828C61 /* Constants.swift */; };
 		8D38D76E26D3597F00F996B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D76D26D3597F00F996B2 /* AppDelegate.swift */; };
 		8D38D77026D3597F00F996B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D76F26D3597F00F996B2 /* SceneDelegate.swift */; };
 		8D38D77526D3597F00F996B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D38D77326D3597F00F996B2 /* Main.storyboard */; };
@@ -20,8 +23,6 @@
 		8D38D7B126D3935A00F996B2 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D7B026D3935A00F996B2 /* CatalogueViewController.swift */; };
 		8D38D7B926D3AB9F00F996B2 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D7B826D3AB9F00F996B2 /* NavigationViewController.swift */; };
 		8D38D7BE26D3AC4E00F996B2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38D7BD26D3AC4E00F996B2 /* AboutViewController.swift */; };
-		8D5DAD2926DC7A420011F712 /* GamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD2826DC7A420011F712 /* GamesModel.swift */; };
-		8D5DAD2E26DC7AD30011F712 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD2D26DC7AD30011F712 /* NetworkModel.swift */; };
 		8D5DAD3326DC7B220011F712 /* PlatformModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD3226DC7B220011F712 /* PlatformModel.swift */; };
 		8D5DAD3826DC7B940011F712 /* PlatformDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD3726DC7B940011F712 /* PlatformDetailModel.swift */; };
 		8D5DAD4E26DC7E500011F712 /* Network+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DAD4D26DC7E500011F712 /* Network+Helper.swift */; };
@@ -45,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85CC492926E869130017D9F3 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		85CC493426E88C4B0017D9F3 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		85D8E78426DF557B00828C61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8D38D76A26D3597F00F996B2 /* iOSFundamentalOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFundamentalOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D38D76D26D3597F00F996B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D38D76F26D3597F00F996B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,8 +68,6 @@
 		8D38D7B026D3935A00F996B2 /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
 		8D38D7B826D3AB9F00F996B2 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		8D38D7BD26D3AC4E00F996B2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		8D5DAD2826DC7A420011F712 /* GamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModel.swift; sourceTree = "<group>"; };
-		8D5DAD2D26DC7AD30011F712 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		8D5DAD3226DC7B220011F712 /* PlatformModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformModel.swift; sourceTree = "<group>"; };
 		8D5DAD3726DC7B940011F712 /* PlatformDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformDetailModel.swift; sourceTree = "<group>"; };
 		8D5DAD4D26DC7E500011F712 /* Network+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Helper.swift"; sourceTree = "<group>"; };
@@ -96,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85D8E78326DF556800828C61 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				85D8E78426DF557B00828C61 /* Constants.swift */,
+				85CC493426E88C4B0017D9F3 /* ImageDownloader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		8D38D76126D3597F00F996B2 = {
 			isa = PBXGroup;
 			children = (
@@ -119,9 +130,9 @@
 		8D38D76C26D3597F00F996B2 /* iOSFundamentalOne */ = {
 			isa = PBXGroup;
 			children = (
+				85D8E78326DF556800828C61 /* Utils */,
 				8D38D7A826D35B6A00F996B2 /* Base */,
 				8D38D7A726D35B5200F996B2 /* Model */,
-				8D38D7A626D35B4900F996B2 /* Utils */,
 				8D38D7A526D35B4100F996B2 /* Controller */,
 				8D38D7A426D35B0800F996B2 /* View */,
 				8D38D77926D3598000F996B2 /* Assets.xcassets */,
@@ -169,22 +180,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		8D38D7A626D35B4900F996B2 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		8D38D7A726D35B5200F996B2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				8D38D77626D3597F00F996B2 /* iOSFundamentalOne.xcdatamodeld */,
-				8D5DAD2826DC7A420011F712 /* GamesModel.swift */,
-				8D5DAD2D26DC7AD30011F712 /* NetworkModel.swift */,
 				8D5DAD3226DC7B220011F712 /* PlatformModel.swift */,
 				8D5DAD3726DC7B940011F712 /* PlatformDetailModel.swift */,
 				8D5DAD4D26DC7E500011F712 /* Network+Helper.swift */,
+				85CC492926E869130017D9F3 /* NetworkResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -330,12 +333,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D38D7B926D3AB9F00F996B2 /* NavigationViewController.swift in Sources */,
-				8D5DAD2926DC7A420011F712 /* GamesModel.swift in Sources */,
 				8D5DAD3826DC7B940011F712 /* PlatformDetailModel.swift in Sources */,
+				85CC493526E88C4B0017D9F3 /* ImageDownloader.swift in Sources */,
 				8D38D7B126D3935A00F996B2 /* CatalogueViewController.swift in Sources */,
-				8D5DAD2E26DC7AD30011F712 /* NetworkModel.swift in Sources */,
 				8D38D7AB26D36D1900F996B2 /* CatalogueTableViewCell.swift in Sources */,
 				8D38D7BE26D3AC4E00F996B2 /* AboutViewController.swift in Sources */,
+				85CC492A26E869130017D9F3 /* NetworkResponse.swift in Sources */,
+				85D8E78526DF557B00828C61 /* Constants.swift in Sources */,
 				8D5DAD3326DC7B220011F712 /* PlatformModel.swift in Sources */,
 				8D5DAD4E26DC7E500011F712 /* Network+Helper.swift in Sources */,
 				8D38D76E26D3597F00F996B2 /* AppDelegate.swift in Sources */,
