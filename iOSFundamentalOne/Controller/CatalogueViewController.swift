@@ -116,7 +116,9 @@ extension CatalogueViewController: UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		
+		let detailNav = DetailGameViewController()
+		detailNav.textTest = "TEST"
+		self.navigationController?.pushViewController(detailNav, animated: true)
 	}
     
     
