@@ -22,7 +22,8 @@ class NavigationViewController: UITabBarController {
         about.tabBarItem = UITabBarItem(title: "About", image: UIImage(systemName: "person"), tag: 1)
         
         self.viewControllers = [catalogue, about]
-        
+		
+		self.tabBar.barTintColor = UIColor.systemBackground
         
         
     }
